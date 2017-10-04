@@ -1,6 +1,7 @@
 package com.eduardoportfolio.springframework5.model;
 
 import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Created by Eduardo on 04/10/17.
