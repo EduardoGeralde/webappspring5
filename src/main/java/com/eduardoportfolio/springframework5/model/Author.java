@@ -1,13 +1,21 @@
 package com.eduardoportfolio.springframework5.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import java.util.HashSet;
 import java.util.Set;
 
 /**
  * Created by Eduardo on 04/10/17.
  */
+@Entity
 public class Author {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
     private String firstName;
     private String lastName;
 
